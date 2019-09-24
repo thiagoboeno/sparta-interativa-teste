@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.594" height="30.712" viewBox="0 0 21.594 30.712">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dbcb9e;
+      }
+    </style>
+  </defs>
+  <g id="pin" transform="translate(0 0)">
+    <g id="Grupo_26" data-name="Grupo 26" transform="translate(0)">
+      <g id="Grupo_25" data-name="Grupo 25">
+        <path id="Caminho_26" data-name="Caminho 26" class="cls-1" d="M86.8,0a10.8,10.8,0,0,0-9.185,16.475l8.571,13.812a.9.9,0,0,0,.764.425h.007a.9.9,0,0,0,.765-.437l8.352-13.946A10.8,10.8,0,0,0,86.8,0Zm7.73,15.4L86.933,28.084,79.141,15.527A9,9,0,1,1,94.527,15.4Z" transform="translate(-76)"/>
+      </g>
+    </g>
+    <g id="Grupo_28" data-name="Grupo 28" transform="translate(5.399 5.399)">
+      <g id="Grupo_27" data-name="Grupo 27">
+        <path id="Caminho_27" data-name="Caminho 27" class="cls-1" d="M171.4,90a5.4,5.4,0,1,0,5.4,5.4A5.4,5.4,0,0,0,171.4,90Zm0,9.01A3.611,3.611,0,1,1,175,95.4,3.614,3.614,0,0,1,171.4,99.01Z" transform="translate(-166 -90)"/>
+      </g>
+    </g>
+  </g>
+</svg>

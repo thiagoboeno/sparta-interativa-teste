@@ -1,0 +1,222 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jumbotron {
+  background-color: #dbcb9e;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.btn-marque-consulta {
+  width: 250px;
+  height: 40px;
+  padding: 0;
+  background-color: white;
+  border: 3px solid #dbcb9e;
+  color: #dbcb9e;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .btn-marque-consulta {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+}
+
+.navbar-brand {
+  margin-right: 3rem;
+}
+
+.navbar .nav-item .nav-link {
+  color: black;
+}
+
+.navbar .nav-item .active .nav-link {
+  color: #dbcb9e;
+}
+
+.btn-saiba-mais {
+  width: 250px;
+  height: 60px;
+  background-color: #dbcb9e;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.33);
+}
+
+.carousel-caption {
+  bottom: 100px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(./imgs/carousel-arrow-left.svg);
+  width: 50px;
+  height: 70px;
+}
+
+.carousel-control-next-icon {
+  background-image: url(./imgs/carousel-arrow-right.svg);
+  width: 50px;
+  height: 70px;
+}
+
+.carousel-indicators li {
+  position: relative;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 24px;
+  height: 24px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: transparent;
+  background: url(./imgs/carousel-bullet.svg);
+}
+
+.carousel-indicators .active {
+  background: url(./imgs/carousel-bullet-active.svg);
+}
+
+.dr-img {
+  width: 100%;
+}
+
+.sobre-profissional,
+.estrutura,
+.servicos,
+.fale-conosco,
+.localizacao {
+  display: inline-block;
+  border-bottom: 8px solid #dbcb9e;
+}
+
+.link-curriculo {
+  text-decoration: underline;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.marque-consulta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: #dbcb9e;
+}
+
+.marque-consulta .texto-consulta {
+  color: white;
+}
+
+.marque-consulta .btn-consulta {
+  width: 360px;
+  height: 70px;
+  background-color: white;
+  color: black;
+  font-size: 31px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.marque-consulta img {
+  width: 30px;
+  height: 30px;
+}
+
+.align-base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  #carouselExampleIndicators2 img {
+    height: 100%;
+  }
+}
+
+#carouselExampleIndicators3 .carousel-control-prev-icon {
+  background-image: url(./imgs/carousel-servicos-arrow-left.svg);
+}
+
+#carouselExampleIndicators3 .carousel-control-next-icon {
+  background-image: url(./imgs/carousel-servicos-arrow-right.svg);
+}
+
+#carouselExampleIndicators3 .carousel-indicators {
+  bottom: -50px;
+}
+
+@media screen and (min-width: 992px) {
+  nav {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .navbar-collapse {
+    flex-grow: 0 !important;
+  }
+}
+
+.textarea-mensagem {
+  min-height: 250px;
+  max-height: 250px;
+}
+
+.textarea-mensagem:focus,
+.textarea-mensagem:hover,
+.campo-mensagem:focus,
+.campo-mensagem:hover {
+  border-color: #dbcb9e;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(219, 203, 158, 0.25);
+}
+
+.btn-contato {
+  width: 250px;
+  height: 60px;
+  background-color: #dbcb9e;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.33);
+}
+
+iframe {
+  width: 100%;
+}

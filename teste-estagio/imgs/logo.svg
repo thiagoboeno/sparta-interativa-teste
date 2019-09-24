@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="48" viewBox="0 0 144 48">
+  <g id="logo" transform="translate(-516 -372)">
+    <text id="LOGO_DA_EMPRESA" data-name="LOGO DA
+EMPRESA" transform="translate(568 394)" fill="#dbcb9e" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">LOGO DA</tspan><tspan x="0" y="21">EMPRESA</tspan></text>
+    <g id="Elipse_15" data-name="Elipse 15" transform="translate(516 376)" fill="#fff" stroke="#dbcb9e" stroke-width="7">
+      <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
+      <circle cx="20.5" cy="20.5" r="17" fill="none"/>
+    </g>
+  </g>
+</svg>

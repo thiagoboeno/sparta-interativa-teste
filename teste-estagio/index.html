@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./general.css" />
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Teste Estágio</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid my-auto py-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 align-base flex-column">
+            <p class="my-2">
+              Atendimento: Seg à Sex, 08:00 às 18:00, Sáb, 08:00 às 14:00
+            </p>
+          </div>
+          <div class="col-lg-6 align-base flex-column">
+            <ul class="navbar-nav">
+              <li class="nav-item d-inline-flex align-base">
+                <a href="#" class="">
+                  <img
+                    src="./imgs/whatsapp.svg"
+                    width="20"
+                    height="20"
+                    class="d-inline-block"
+                    alt=""
+                /></a>
+                <p class="my-2">Telefone: (31) 3344-5566</p>
+                <a href="#" class="ml-4">
+                  <img
+                    src="./imgs/facebook.svg"
+                    width="20"
+                    height="20"
+                    class="d-inline-block"
+                    alt=""
+                /></a>
+                <a href="#" class="">
+                  <img
+                    src="./imgs/instagram.svg"
+                    width="20"
+                    height="20"
+                    class="d-inline-block"
+                    alt=""
+                /></a>
+                <a href="#" class="">
+                  <img
+                    src="./imgs/linkedin.svg"
+                    width="20"
+                    height="20"
+                    class="d-inline-block"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./imgs/logo.svg"
+            width="140"
+            height="50"
+            class="d-inline-block align-top"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">O Profissional</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Estrutura</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Procedimentos</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+          </ul>
+          <button class="btn btn-marque-consulta">
+            Marque uma consulta
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="./imgs/banner.png"
+                alt="Primeiro Slide"
+              />
+              <div class="col-6 mr-5 ml-auto">
+                <div class="carousel-caption d-none d-lg-block text-right">
+                  <h1 class="display-4 mb-4">DR. ORLANDO RESENDE</h1>
+                  <p class="h1 mb-3">Há mais de 25 anos cuidando de você</p>
+                  <button class="btn btn-saiba-mais">
+                    Saiba mais<img src="./imgs/seta2.svg" alt="Enviar" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./imgs/banner.png"
+                alt="Segundo Slide"
+              />
+              <div class="col-6 mr-5 ml-auto">
+                <div class="carousel-caption d-none d-lg-block text-right">
+                  <h1 class="display-4 mb-4">DR. ORLANDO RESENDE</h1>
+                  <p class="h1 mb-3">Há mais de 25 anos cuidando de você</p>
+                  <button class="btn btn-saiba-mais">
+                    Saiba mais<img src="./imgs/seta2.svg" alt="Enviar" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./imgs/banner.png"
+                alt="Terceiro Slide"
+              />
+              <div class="col-6 mr-5 ml-auto">
+                <div class="carousel-caption d-none d-lg-block text-right">
+                  <h1 class="display-4 mb-4">DR. ORLANDO RESENDE</h1>
+                  <p class="h1 mb-3">Há mais de 25 anos cuidando de você</p>
+                  <button class="btn btn-saiba-mais">
+                    Saiba mais<img src="./imgs/seta2.svg" alt="Enviar" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 mx-auto">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="sobre-profissional my-5">Sobre o Profissional</h1>
+            </div>
+            <div class="col-md-4">
+              <img
+                class="dr-img"
+                src="./imgs/dr.png"
+                alt="Dr. Orlando Resende"
+                title="Dr. Orlando Resende"
+              />
+            </div>
+            <div class="col-md-8">
+              <h2>Dr. Orlando Resende</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.
+              </p>
+              <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum
+              </p>
+              <a class="link-curriculo" href="">Currículo Lattes</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-10 mx-auto mt-5">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="estrutura mb-5">Estrutura</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.
+              </p>
+              <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div
+                id="carouselExampleIndicators2"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#carouselExampleIndicators2"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators2"
+                    data-slide-to="1"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators2"
+                    data-slide-to="2"
+                  ></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/NoPath.png"
+                      alt="Primeiro Slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/NoPath.png"
+                      alt="Segundo Slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/NoPath.png"
+                      alt="Terceiro Slide"
+                    />
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleIndicators2"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleIndicators2"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="marque-consulta mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="row">
+              <div class="col-md-6">
+                <h1 class="texto-consulta">Marque sua consulta</h1>
+              </div>
+              <div class="col-md-6 align-base">
+                <button class="btn btn-consulta">
+                  clique aqui
+                  <img src="./imgs/seta.svg" alt="arrow click here" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center mt-5">
+          <h1 class="servicos mb-3">Nossos Serviços</h1>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+        <div class="col-md-10 mx-auto">
+          <div
+            id="carouselExampleIndicators3"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators3"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators3"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators3"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="col-10 mx-auto carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 1</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 2</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 3</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 4</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 5</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 6</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 1</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 2</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 3</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 4</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 5</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 6</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 1</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 2</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 3</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 4</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 5</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="col-4 text-center my-3">
+                    <img
+                      class="d-block w-100"
+                      src="./imgs/banner.png"
+                      alt="Primeiro Slide"
+                    />
+                    <h4 class="mt-2">Prodecimento 6</h4>
+                    <p>
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators3"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators3"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-10 mx-auto my-5">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="fale-conosco my-5">Fale Conosco</h1>
+            </div>
+            <div class="col-md-12">
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
+            <div class="col-md-6 mt-3">
+              <div class="row">
+                <div class="col-6">
+                  <input
+                    class="form-control campo-mensagem mb-4"
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    placeholder="Nome completo"
+                  />
+                </div>
+                <div class="col-6">
+                  <input
+                    class="form-control campo-mensagem mb-4"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="col-6">
+                  <input
+                    class="form-control campo-mensagem mb-4"
+                    type="text"
+                    name="telefone"
+                    id="telefone"
+                    placeholder="Telefone com DDD"
+                  />
+                </div>
+                <div class="col-6">
+                  <select
+                    class="form-control campo-mensagem mb-4"
+                    name="assunto"
+                    id="assunto"
+                  >
+                    <option value="assunto1">Selecione o assunto </option>
+                    <option value="assunto2">Selecione o assunto </option>
+                    <option value="assunto3">Selecione o assunto </option>
+                    <option value="assunto4">Selecione o assunto </option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="form-control textarea-mensagem"
+                    name="mensagem"
+                    id="mensagem"
+                    cols="30"
+                    rows="10"
+                    placeholder="Mensagem"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-3">
+              <p>
+                <img src="./imgs/pin-icon.svg" alt="" width="20" height="20" />
+                <strong>Endereço:</strong> Av. Contorno 3513, Santa Efigênia,
+                BH/MG
+              </p>
+              <p>
+                <img
+                  src="./imgs/telefone-icon.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+                <strong>Telefone:</strong> (31) 3291-0636
+              </p>
+              <p>
+                <img
+                  src="./imgs/whatsapp-icon.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+                <strong>Whatsapp:</strong> (31) 3291-0636
+              </p>
+              <p>
+                <img
+                  src="./imgs/email-icon.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+                <strong>E-mail:</strong> contato@orlandoresende.com.br
+              </p>
+              <p>
+                <img
+                  src="./imgs/atendimento-icon.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+                <strong>Atendimento:</strong> Seg à Sex, 8:00 às 18:00, Sáb:
+                8:00 às 14:00
+              </p>
+            </div>
+            <div class="col-md-6 mt-4">
+              <div
+                class="g-recaptcha mb-3"
+                data-sitekey="6LfoAroUAAAAAD5zmR1kdG9_OBxANYU6GRGb6TQS"
+              ></div>
+              <button class="btn btn-contato">
+                Enviar<img src="./imgs/seta2.svg" alt="Enviar" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 mx-auto my-5">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="localizacao my-5">Localização</h1>
+            </div>
+            <div class="col-6 text-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1875.4647424942402!2d-43.952009804453965!3d-19.92737612731857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6976627575baf%3A0x2ba2986078a2dd0b!2sRua%20Paracat%C3%BA%2C%201163%20-%20Barro%20Preto%2C%20Belo%20Horizonte%20-%20MG%2C%2030180-091!5e0!3m2!1spt-BR!2sbr!4v1569288667497!5m2!1spt-BR!2sbr"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen=""
+              ></iframe>
+              <h4 class="mt-2">Unidade 1</h4>
+              <p>
+                Rua Paracatu, 1163 – Barro Preto – Belo Horizonte/ MG
+              </p>
+            </div>
+            <div class="col-6 text-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.8173335410434!2d-44.01888638563271!3d-19.974182844841742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bde3bbe602a3%3A0x2fdf8b4c500c8908!2sR.%20Joaquim%20de%20Figueiredo%2C%20157%20-%20Barreiro%2C%20Belo%20Horizonte%20-%20MG%2C%2030640-090!5e0!3m2!1spt-BR!2sbr!4v1569288695099!5m2!1spt-BR!2sbr"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen=""
+              ></iframe>
+              <h4 class="mt-2">Unidade 2</h4>
+              <p>
+                Rua Joaquim d Figueiredo, 157, Barreiro, Belo Horizonte
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-10 mx-auto">
+            <div class="row">
+              <div class="col-6">
+                2019 © Todos os Direitos Reservados - Sua Empresa LTDA
+              </div>
+              <div class="col-6 text-right">
+                Desenvolvido por: <img src="./imgs/siterapido.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
